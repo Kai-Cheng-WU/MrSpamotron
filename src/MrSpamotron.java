@@ -22,7 +22,7 @@ public class MrSpamotron {
 		
 		System.out.println("Enter the number of times you want the message to be sent, in integer");
 		int times = myScan.nextInt();
-		System.out.println("Enter the time interval between scams, in miliseconds");
+		System.out.println("Enter the time interval between spams, in miliseconds");
 		int interval = myScan.nextInt();
 		System.out.println("Set a wait timer until the Mr. Spamotron starts working, in seconds");
 		int waitTimer = myScan.nextInt();
