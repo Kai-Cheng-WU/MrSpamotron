@@ -20,14 +20,15 @@ public class MrSpamotron {
 		Clipboard myClipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		myClipboard.setContents(mySelection, null);
 		
-		System.out.println("Enter the number of times you want the message to be sent, in integer");
+		System.out.println("Enter the number of times you want the message to be sent, in integer:");
 		int times = myScan.nextInt();
-		System.out.println("Enter the time interval between spams, in miliseconds");
+		System.out.println("Enter the time interval between spams, in miliseconds:");
 		int interval = myScan.nextInt();
-		System.out.println("Set a wait timer until the Mr. Spamotron starts working, in seconds");
+		System.out.println("Set a wait timer until the Mr. Spam-O-Tron starts working, in seconds:");
 		int waitTimer = myScan.nextInt();
 
 		
+		System.out.println("Got it, Mr. Spam-O-Tron will annhilate your ennemies in " + waitTimer + " seconds.");
 		Thread.sleep(waitTimer*1000);
 		
 		for(int i=0; i<times; i++) {
