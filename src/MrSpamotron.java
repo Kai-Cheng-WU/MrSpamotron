@@ -10,8 +10,6 @@ public class MrSpamotron {
 	
 	public static void main(String[] args) throws AWTException, InterruptedException {
 		Robot mrSpam = new Robot();
-		Scanner scanner = new Scanner(System.in);
-		
 		System.out.println("Enter your text:");
 		Scanner myScan = new Scanner(System.in);
 		String text = myScan.nextLine();
